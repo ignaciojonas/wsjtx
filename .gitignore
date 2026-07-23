@@ -22,3 +22,6 @@ CMakeFiles
 fnd
 lib/77bit/tmp
 lib/tmp
+
+# local-only planning docs, not meant for PRs
+docs/superpowers/
