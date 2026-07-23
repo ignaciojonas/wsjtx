@@ -86,7 +86,7 @@ QList<DecodeHighlightingModel::HighlightInfo> const DecodeHighlightingModel::imp
   , {Highlight::ITUZoneBand, false, {Qt::black}, {{0xbe, 0xe3, 0xf5}}}
   , {Highlight::DXCC, true, {Qt::black}, {{0xcc, 0x79, 0xa7}}}
   , {Highlight::DXCCBand, true, {Qt::black}, {{0xe8, 0xbf, 0xd6}}}
-  , {Highlight::Grid, false, {Qt::white}, {{0x00, 0x00, 0x00}}}
+  , {Highlight::Grid, false, {Qt::white}, {Qt::black}}
   , {Highlight::GridBand, false, {Qt::black}, {{0xcc, 0xcc, 0xcc}}}
   , {Highlight::Call, false, {Qt::black}, {{0x99, 0x99, 0x99}}}
   , {Highlight::CallBand, false, {Qt::black}, {{0xdd, 0xdd, 0xdd}}}
